@@ -35,7 +35,8 @@ partial exam**. Read the "How to tutor" section before answering anything.
 | Item | Value |
 |---|---|
 | Partial exam | **30 points**: Theory 1 + Theory 2 (min. 5) and Problem 1 + Problem 2 (min. 5) |
-| Date / room | **9 November 2026, room BN104** (from the notebook: "Test 9 November (BN104)") |
+| Date | The partial was held on **7 November 2026**. (The notebook had noted "Test 9 November (BN104)".) |
+| Past questions | [`past-exams/questions.md`](past-exams/questions.md). **Check it first**; real questions outrank the guesses below |
 | Rest of grade | Course 10p (presence + answers), Seminar 10p (presence + activity), Final exam 50p |
 
 So the partial is **2 theory questions + 2 problems**.
@@ -56,8 +57,11 @@ So the partial is **2 theory questions + 2 problems**.
    constant coefficients; the proof that Y_k from a chain is a solution.
 7. **Variation of parameters formula: STATEMENT ONLY.** The notebook says *"without proof at the exam"*.
 
-All course theory so far is about **systems of differential equations (SDEs) and stability**.
-Complex-variable topics appear only in the seminar, so they show up as problems, not theory.
+**The 7 November 2026 partial actually asked (theory):**
+(1) *Linear and homogeneous SDEs, Case I: the matrix A is diagonalizable*, and
+(2) *Differentiability of the complex functions*. So complex-variable topics **can** be theory
+questions, even though the notebook has no course pages on them yet. Keep this list updated
+from `past-exams/questions.md`.
 
 **Problems (ranked):**
 

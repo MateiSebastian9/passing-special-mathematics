@@ -14,7 +14,8 @@ It has three parts:
   cards in 8 topics. The 30 most likely exam questions are starred.
 - **[`study-materials/`](study-materials)** holds the original PDFs: the typed exercise summary
   and the handwritten course notebook.
-- **[`past-exams/`](past-exams)** is for past exam papers. It's empty for now.
+- **[`past-exams/`](past-exams)** holds past exam questions. See
+  [`questions.md`](past-exams/questions.md); it starts with the 7 November 2026 partial.
 
 ## What's covered
 

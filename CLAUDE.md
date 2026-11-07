@@ -405,6 +405,7 @@ To solve sh z = 2, set t = e^z. This gives t² − 4t − 1 = 0, so t = 2 ± √
 | `theory_flashcards.py` | Tkinter flashcard app: 57 theory cards in 8 topics, 30 starred as most likely |
 | `README.md` | Public overview: what's covered, how to run the app, how to study with Claude Code |
 | `study-materials/` | The original PDFs (typed summary + handwritten notebook); they contain the errors listed in §7 |
+| `past-exams/` | Past exam papers (empty for now). When papers are added, read them and update the "most likely" rankings in §1 |
 | `.gitignore` | Ignores the per-user progress file and Python caches |
 
 ### Flashcard app

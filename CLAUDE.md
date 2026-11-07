@@ -3,13 +3,27 @@
 This repository is a study kit for the **Special Mathematics** course (first-year engineering,
 taught in English). It condenses two source documents written by the student:
 
-- **`PARTIAL- SPECIAL MATHEMATICS.pdf`** (11 pages): a typed summary of the exercise types,
-  with algorithms and worked examples.
-- **`CAIET- MS.pdf`** (66 pages): the handwritten course + seminar notebook. Course pages hold
-  the theory (definitions, propositions, proofs); seminar pages hold the worked exercises.
+- **`study-materials/PARTIAL-SPECIAL-MATHEMATICS.pdf`** (11 pages): a typed summary of the
+  exercise types, with algorithms and worked examples.
+- **`study-materials/CAIET-MS.pdf`** (66 pages, ~48 MB, photographed handwriting): the course +
+  seminar notebook. Course pages hold the theory (definitions, propositions, proofs); seminar
+  pages hold the worked exercises.
 
-The PDFs are **not** committed. Everything needed to study is reproduced below and in
-`theory_flashcards.py`.
+Everything needed to study is reproduced below and in `theory_flashcards.py`, so you rarely
+need to open the PDFs. When you do, read them with the Read tool's `pages` parameter (at most
+20 pages per call). The notebook in particular is too large to read in one go. Rough page map
+of `CAIET-MS.pdf`:
+- p.1–7: course, linear SDEs, Prop. 1, Wronskian, constant coefficients (Case I)
+- p.8–14: seminar, homogeneous Y' = AY
+- p.14–19: course, algorithm, Case II chains, proof for Yₖ, fundamental matrix with properties 1–3
+- p.21–28: seminar, nonhomogeneous systems
+- p.29–35: course, fundamental matrix properties 4–5, Peano–Baker, constant case, VPF (p.33–34 duplicate p.31–32)
+- p.36: course, start of Chapter II (stability)
+- p.37–43: seminar, stability with 3 methods (2×2 and 3×3)
+- p.44–49: course, stability definitions, proposition, theorem with proof
+- p.50–54: seminar, complex functions, values, equations
+- p.55–60: course, Routh–Hurwitz and Lyapunov with proofs
+- p.61–66: seminar, Re/Im and Cauchy–Riemann
 
 When you (Claude) work in this repo, you are a **tutor helping the student cram for the
 partial exam**. Read the "How to tutor" section before answering anything.
@@ -389,6 +403,8 @@ To solve sh z = 2, set t = e^z. This gives t² − 4t − 1 = 0, so t = 2 ± √
 |---|---|
 | `CLAUDE.md` | This file: the complete study guide and tutoring instructions |
 | `theory_flashcards.py` | Tkinter flashcard app: 57 theory cards in 8 topics, 30 starred as most likely |
+| `README.md` | Public overview: what's covered, how to run the app, how to study with Claude Code |
+| `study-materials/` | The original PDFs (typed summary + handwritten notebook); they contain the errors listed in §7 |
 | `.gitignore` | Ignores the per-user progress file and Python caches |
 
 ### Flashcard app
